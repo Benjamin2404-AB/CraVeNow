@@ -1,0 +1,152 @@
+.slider{
+    background-color: rgba(165, 42, 42, 0.073);
+    width:100vw;
+    transform: translateY(60px);
+    height: 500px;
+
+}
+#fheadline{
+    font-family: Poppins;
+    font-size: 65px;
+    color:rgb(211, 104, 4);
+    /* color:rgb(255, 123, 0); */
+    float:left;
+    width:600px;
+    max-width: 600px;
+    text-align: left !important;
+    margin-left: 130px;
+    margin-top: 80px;
+    line-height: 1 !important;
+    position: absolute;
+}
+
+#fsubtext{
+    font-family: Poppins;
+    color:#181818;
+    float:left;
+    width:600px;
+    max-width: 600px;
+    text-align: left !important;
+    margin-left:130px;
+    margin-top: 230px;
+
+
+    position: absolute;
+    
+}
+#fimg{
+    padding:25px 10px 5px 5px;
+    /* margin-right: 100px; */
+    /* background-color: rgb(172, 103, 7); */
+    height:75%;
+    position: absolute;
+    /* transform: */
+    margin-left: 240px;
+}
+
+.slider #orderButton{
+    float:left;
+     transform: translate(150px,300px); 
+    
+  
+    
+}
+.slideCircle{
+    width:12px;
+    height:12px;
+    border-radius: 6px;
+    margin-right:4px;
+    border:none;
+    transform: translateY(450px);
+
+}
+.curr{
+    background-color: #ff7b00;
+}
+.ncurr{
+    background-color: rgba(165, 42, 42, 0.169);
+}
+
+@media only screen and (max-width:450px){
+
+    .slider{
+        background-color: rgba(165, 42, 42, 0.073);
+        width:100vw;
+        transform: translateY(60px);
+        height: 500px;
+        display: block;
+        margin: 0 auto;
+    
+    }
+    #fheadline{
+        font-family: Poppins;
+        font-size: 35px;
+        color:rgb(211, 104, 4);
+        /* color:rgb(255, 123, 0); */
+        float:left;
+        width:400px;
+        max-width: 500px;
+        padding: 60px 10px;
+        text-align: center !important;
+        /* margin-left: 00px; */
+        margin:0 auto;
+        line-height: 1 !important;
+    }
+
+    #fsubtext{
+        font-family: Poppins;
+        color:#181818;
+        /* float:left; */
+        width:300px;
+        max-width: 300px;
+        padding: 100px 0px;
+       transform: translate(20%,30px);
+       margin-left:0px;
+       margin-left: 200px;
+        text-align: center !important;
+        /* margin-left:30px; */
+        margin-top: 200px;
+        margin: 0 auto;
+    
+        position: absolute;
+        
+    }
+    #fimg{
+        /* padding:2px 10px 5px 5px; */
+        /* margin-right: 100px; */
+        /* background-color: rgb(172, 103, 7); */
+        margin: 0 auto;
+        margin-top: 140px;
+        margin-left: -125px;
+       
+        height:45%;
+        /* background-color: aqua; */
+        /* transform: */
+    }
+    .slider #orderButton{
+        float:left;
+        /* transform: translate(150px,430px);  */
+        margin: 0 auto;
+        width:130px;
+        height: 10px;
+        margin-top: 120px;
+        font-size: 13px;
+        
+      
+        
+    }
+    .slideCircle{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        /* margin-right:4px; */
+        border:none;
+        transform: translateY(380px);
+        /* transform: translateX(-20px); */
+    
+    }
+   
+    .switcher{
+        transform: translateX(-50px);
+    }
+}

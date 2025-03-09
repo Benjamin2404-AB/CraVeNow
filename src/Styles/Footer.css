@@ -1,0 +1,48 @@
+.footerInfo{
+
+    
+        background-color: rgb(27,27,27);
+        /* background-color: rgb(211, 104, 4); */
+        width:100vw;
+        height:400px;
+        margin-top: 400px;
+    
+    
+}
+.FootTabsLink{
+    margin-left: 130px;
+    
+}
+.FootTabsLink li{
+    list-style-type: none;
+    /* display: inline-block; */
+    padding:10px 5px;
+    
+    transform: translateY(80px);
+    color:rgb(224, 223, 223);
+    text-align: left !important;
+}
+
+.locations{
+    /* text-align: left !important; */
+    margin: 0 auto;
+    display: block;
+    /* background-color: brown; */
+    width:300px;
+    /* line-height: 1px !important; */
+    transform: translate(-100px,-100px);
+    /* margin-left: -5px; */
+}
+
+.locations span{
+    font-weight: 500;
+    font-size:15px;
+    /* text-align: left; */
+}
+.locations li{
+    font-weight: 300;
+    list-style-type: none;
+    padding:10px 5px;
+    font-size:10px;
+    text-align:left !important;
+}

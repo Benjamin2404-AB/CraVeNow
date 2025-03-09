@@ -1,0 +1,161 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 400px;
+    font-family: Poppins;
+}
+.mailForm label{
+    margin-left: 45px;
+    /* transform: translateY(-5px); */
+    padding: 7px 0px;
+}
+
+.mailForm {
+    background-color: #f2f2f2;
+    width: 35vw;
+    height: 630px;
+    margin-top: 450px;
+    box-shadow: rgba(17, 12, 46, 0.078) 0px 48px 100px 0px;
+    border: none;
+    border-radius: 15px;
+    color: black;
+    overflow-x: hidden;
+    object-fit: contain;
+}
+.mailForm h1{
+    color:rgb(255, 123, 0);
+}
+#sub{
+    color: #f2f2f2;
+    width: 30vw !important;
+    border-radius: 0px !important;
+
+}
+#message{
+    width: 25vw;
+    height: 30px;
+    background-color: rgba(189, 190, 190, 0.087);
+    color: black;
+    font-family: Poppins;
+    border: 1px solid rgba(0, 0, 0, 0.406);
+    border-radius: 2px;
+    margin-left: 50px;
+    padding: 5px 10px;
+    margin-top: -10px;
+}
+
+#mInput, #nameInput,#phoneInput{
+    width: 25vw;
+    height: 30px;
+    background-color: rgba(189, 190, 190, 0.087);
+
+    border: 1px solid rgba(0, 0, 0, 0.406);
+    border-radius: 2px;
+    margin-left: 50px;
+    padding: 5px 10px;
+    margin-top: -10px; /* Reduced margin for better spacing */
+}
+
+/* #phoneInput {
+    width: 25vw;
+    height: 30px;
+    background-color: rgba(189, 190, 190, 0.087);
+
+    border: 1px solid rgba(0, 0, 0, 0.406);
+    border-radius: 2px;
+    margin-left: 35px;
+    padding: 5px 10px;
+    margin-top: 10px; 
+} */
+
+#inquiryType{
+    width: 15vw;
+    height: 34px;
+    color: black;
+    background-color: rgba(189, 190, 190, 0.087);
+    border: 1px solid rgba(0, 0, 0, 0.406);
+    border-radius: 2px;
+    margin-left: 50px;
+    padding: 5px 10px;
+}
+
+
+.formGroup {
+    display: flex;
+    flex-direction: column; /* Stack label on top of input */
+    margin-bottom: 20px; /* Space between input groups */
+    
+}
+
+#mInputL {
+    color: black;
+}
+
+@media only screen and (max-width:450px){
+
+    .mailForm {
+        
+        width: 85vw;
+        height: 600px;
+       
+    }
+
+        #sub{
+
+            
+            width: 70vw !important;
+            border-radius: 0px !important;
+
+        }
+         
+        
+    
+#mInput, #nameInput {
+    width: 60vw;
+    height: 40px;
+    background-color: rgba(189, 190, 190, 0.087);
+
+    border: 1px solid rgba(0, 0, 0, 0.406);
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-top:-15px ;
+    
+}
+.mailForm label{
+    margin-left: 45px;
+    margin-top: 5px;
+}
+
+.mailForm label{
+    /* margin-left: 45px; */
+    transform: translateY(-5px);
+    padding: 13px 0px;
+}
+
+#phoneInput{
+    width:35vw;
+}
+#inquiryType{
+    width: 25vw;
+    height: 34px;
+    color: black;
+    margin-top:-15px ;
+  
+}
+
+#message{
+    width: 35vw;
+    height: 30px;
+    background-color: rgba(189, 190, 190, 0.087);
+    color: black;
+    font-family: Poppins;
+    border: 1px solid rgba(0, 0, 0, 0.406);
+    border-radius: 2px;
+    margin-left: 50px;
+    padding: 5px 10px;
+    margin-top: -15px;
+}
+
+}

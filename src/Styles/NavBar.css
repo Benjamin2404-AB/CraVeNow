@@ -1,0 +1,248 @@
+.bar{
+    /* background-color: #974303; */
+    background-color: rgb(227, 230, 230);
+    width:100vw;
+    height:70px;
+    position:fixed;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: 5;
+    
+    
+}
+#logoaux{
+    text-align: left;
+    margin-top: 20px;
+    
+}
+
+.tabs{
+    /* color:white;
+    font-weight: 300; */
+    margin:0 auto;
+    display: block;
+    /* background-color: red; */
+    width:900px;
+    height:50px;
+    position:relative;
+    margin-top: -60px;
+    /* float:right;
+    margin-top:-30px;
+    margin-right:100px; */
+
+}
+.tabs a{
+    text-decoration: none;
+}
+ul{
+    font-family: Poppins;
+    font-weight:400;
+    
+}
+.tabs  li{
+    list-style-type: none;
+    display: inline-block;
+    margin:30px 60px;
+    /* background-color: blue; */
+    width:80px;
+    /* justify-content: space-between; */
+    color:rgb(27, 27, 27);
+ }
+ .tabs li::after{
+    content: "";
+    position:absolute;
+    background-color: #ff7b00;
+    margin:2px 2px;
+    width:0px;
+    height:4px;
+    color: '#ff7b00';
+    display: block;
+ }
+ .tabs li:hover{
+    color:#ff7b00;
+    transition:ease-in 0.7s; 
+
+ }
+ .tabs li:hover::after{
+
+    width:80px;
+    color: #ff7b00;
+    transition:ease-in 0.7s; 
+    
+ }
+ nav button{
+    display: none;
+ }
+
+ 
+@media only screen and (max-width:450px){
+
+    .bar{
+        /* background-color: #974303; */
+        background-color:none;
+        width:100vw;
+        height:70px;
+        position:fixed;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        z-index: 3;
+        
+        
+    }
+
+    nav{
+        /* background-color: #00aec9; */
+        overflow-x: hidden;
+        position: fixed;
+        overflow: hidden;
+        /* background-color: brown; */
+        width:100vw;
+        z-index: 5;
+       
+
+    }
+
+    #logoaux{
+        text-align: left;
+        margin-top: 20px;
+        font-size: 2px;
+        /* margin-left:  */
+        
+    }
+    
+    .tabs{
+        /* color:white;
+        font-weight: 300; */
+        margin:0 auto;
+        display: block;
+    /* background-color: #fdb2b2; */
+        
+        /* background-color: rgba(235, 234, 232, 0.888); */
+        /* width: 50vw; */
+        background-color: rgba(231, 230, 230, 0.947);
+        /* background-color: rgba(223, 0, 0, 0.947); */
+
+  
+
+        width:120vw;
+        height:100vh;
+        position:relative;
+        margin-top: -60px;
+        transform: translateX(70px);
+
+
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+        
+        /* float:right;
+        margin-top:-30px;
+        margin-right:100px; */
+    
+    }
+
+    .tabs  li{
+        list-style-type: none;
+        display:list-item;
+        margin: 0px 0px;
+        padding:40px 100px;
+        list-style: none;
+        
+               /* justify-content: space-between; */
+        color:rgb(27, 27, 27);
+        width:80px;
+  
+        margin-bottom: 20px;
+     }
+
+
+    #navopen{
+        height:100vh;
+        z-index: 1;
+        /* background-color: rgba(248, 249, 249, 0.683); */
+        background-color: rgba(15, 15, 15, 0.39);
+
+        overflow-x: hidden;
+        overflow-y: hidden;
+        display: block;
+    }
+
+    /* #navclosed{
+        display: none;
+    } */
+
+    
+    /* nav ul li{
+        list-style: none;
+        list-style-type:none;
+        float: end;
+        width:10vw;
+        width:70%;
+        height:100vh;
+        transform: translateX(20%);
+        background-color:rgba(27, 34, 35, 0.829);
+        margin-top: 50px;
+        z-index: 1000;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }  */
+    #open{
+        display: block;
+    }
+    #closed{
+        display:none;
+    }
+    nav button{
+        display: block;
+        
+        position: absolute;
+        
+        background-color:transparent;
+        left:350px;
+        top:20px;
+        border:none;
+        /* transform: translate(380px,-30px);  */
+        
+       
+    }
+    /* nav button{
+        display: block;
+        transform: translate(320px);
+        position: absolute;
+        width: 13%;
+        background-color:transparent;
+        border:none;
+        
+    } */
+
+
+
+    /* nav  ul{
+       
+        list-style: none;
+        list-style-type:none;
+        display:flex;
+        flex-direction: column;
+        transform: translateX(20%);
+        text-decoration: none;
+       
+        font: 15px Poppins;
+        font-style: normal;
+        color: rgb(255, 255, 255);
+        
+        
+    }
+
+    nav li ul :hover{
+        opacity:0.7;
+        color: aqua;
+    }
+    nav button{
+        display: block;
+        transform: translateX(320px);
+        position: absolute;
+        width: 13%;
+        background-color:transparent;
+        border:none;
+        
+    } */
+
+
+}

@@ -1,0 +1,290 @@
+.food-desc-page{
+    background-color: rgba(165, 42, 42, 0.073);
+    /* background-color: brown; */
+    height: 700px;
+    font-family: Poppins;
+    width:100vw;
+    position:relative ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin */
+}
+.food-details{
+    width: 90vw;
+    height: 550px;
+    /* background-color: blue; */
+    object-fit: contain;
+    overflow: hidden;
+    text-align: left;
+}
+
+.food-details img{
+    float: left;
+    /* background-color: aquamarine; */
+    padding: 5px 5px;
+    margin-left: 40px;
+}
+.food-details h1{
+    margin-left: 40vw;
+    /* background-color: aqua; */
+    width: 600px;
+    height: 40px;
+    color:rgb(26, 25, 25);
+    margin-top: 150px;
+
+
+}
+
+.food-details p{
+    /* margin-right: 35vw; */
+   
+}
+#fdescr{
+    
+    width:600px;
+    /* background-color: rgb(255, 0, 157); */
+    margin-left: 40vw;
+    color: rgb(25, 25, 25);
+    margin-top: -130px;
+
+}
+
+.counter{
+    position: absolute;
+
+}
+#priceD{
+    color:#ff7b00;
+    transform: translateY(15vh);
+    /* background-color: aqua; */
+    width:100px;
+    height: 30px;
+    margin-left: 40vw;
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+.counter{
+    /* background-color: blueviolet; */
+    height: 50px;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+.counter  input{
+    background-color: rgba(142, 141, 141, 0.068);
+    color: rgb(25, 25, 25);
+    border:2px solid #00000069;
+    border-radius: 1px;
+    font-size: 15px;
+    /* margin-top:3px ; */
+    width:200px;
+    padding:2px 5px;
+    
+
+}
+.counter button{
+    border:none ;
+    border-radius: 1px;
+    background-color:#a36932;
+    height:30px;
+    width:40px;
+    padding: -2px 3px;
+    margin:2px 4px;
+    font-size: 15px;
+
+}
+#orderButton2{
+    position: absolute;
+    transform: translateY(30vh);
+    width:10vw !important;
+    border-radius: 4px !important;
+}
+
+.PopUp{
+    padding:10px 5px 4px 2px;
+    width:40vw;
+    height: 400px;
+    font-family: Poppins;
+   
+    color:rgb(2, 75, 10);
+    background-color:rgb(231, 231, 231) ;
+    position: absolute;
+    transform: translateY(-40vh);
+    margin-left: 500px;
+    border:none;
+    border-radius: 5px;
+    box-shadow: rgba(17, 12, 46, 0.409) 0px 48px 100px 0px;
+    animation: fadeIn 0.8s ease-in  top; 
+
+}
+.PopUp p{
+    margin-top: 50px;
+    font-size: larger;
+
+}
+
+@keyframes fadeIn {
+    from{opacity: 0;}
+    to{opacity: 1;}
+    
+}
+/* .food-details img{
+    float:left;
+    background-color: antiquewhite;
+    margin-left: 200px;
+    /* margin-top: 80px; */
+
+    /* padding:25px 10px 5px 5px; */
+    /* margin-right: 100px; */
+    /* background-color: rgb(172, 103, 7); 
+    height:75%;
+ 
+  
+} */
+
+/* .food-details h1{
+    transform: translateY(20vh);
+    /* transform: translateX(-10vw); */
+    /* padding: 20px 3px; 
+    font-size: 50px;
+    margin-right: 50vw;
+    color:#151515;
+    
+} */
+/* #priceD{
+   
+} */
+/* .food-details p{
+    color:black;
+/* transform: translateY(25vh);/ 
+   
+} */
+
+/* #fdescr{
+
+    background-color: #ff7b00;
+    float: right;
+    width: 500px;
+    margin-right: 400px;
+    /* transform: translateY(80px); 
+    text-align: left;
+} */
+
+@media only screen and (max-width:450px){
+
+    .food-details{
+        width: 90vw;
+        height: 550px;
+        /* background-color: blue; */
+        object-fit: contain;
+        overflow: hidden;
+        text-align: left;
+
+        display: block;
+        margin: 0 auto;
+        
+    }
+
+    .food-details img{
+        float: none;
+        /* background-color: aquamarine; */
+        padding: 5px 5px;
+        /* margin-left: 40px; */
+        height: 50%;
+    }
+    .food-details h1{
+        position: relative;
+        /* background-color: rgb(3, 66, 3); */
+        width: 300px;
+        font-size: 20px;
+        margin-left: 10vw;
+        /* margin-left: -10px; */
+        /* height:50px; */
+        margin-top: 00px;
+
+    
+    
+    }
+    
+    .food-details p{
+        /* margin-right: 35vw; */
+    }
+    #fdescr{
+        font-size: 12px;
+        width:300px;
+        /* background-color: rgb(255, 0, 157); */
+        position: relative;
+        margin-left: 10vw;
+        margin-top: -65px;
+        
+    }
+    #priceD{
+        color:#ff7b00;
+        transform: translateY(15vh);
+        /* background-color: aqua; */
+        width:100px;
+        height: 30px;
+        margin-left: 10vw;
+        font-size: 20px;
+        margin-top: 00px;
+
+    }
+    .counter{
+        /* background-color: blueviolet; */
+        height: 50px;
+        margin-top: 350px;
+        margin-left: 0px;
+
+    }
+    .counter  input{
+        background-color: rgba(142, 141, 141, 0.068);
+        color: rgb(25, 25, 25);
+        border:2px solid #00000069;
+        border-radius: 1px;
+        font-size: 15px;
+        /* margin-top:3px ; */
+        width:200px;
+        padding:2px 5px;
+        
+
+    }
+    .counter button{
+        border:none ;
+        border-radius: 1px;
+        background-color:#a36932;
+        height:30px;
+        width:40px;
+        padding: -2px 3px;
+        margin:2px 4px;
+        font-size: 15px;
+        margin-top: 20px;
+    
+    }
+    
+    #orderButton2{
+        position: absolute;
+        transform: translateY(30vh);
+        width:40vw !important;
+        border-radius: 4px !important;
+    }
+
+    .PopUp{
+        padding:10px 5px 4px 2px;
+        width:80vw;
+        height: 200px;
+        font-family: Poppins;
+        color:rgb(2, 75, 10);
+        background-color:rgb(231, 231, 231) ;
+        position: absolute;
+        transform: translateY(-40vh);
+        margin-left: 30px;
+        border:none;
+        border-radius: 5px;
+        box-shadow: rgba(17, 12, 46, 0.409) 0px 48px 100px 0px;
+
+    }
+    .PopUp p{
+        margin-top: 10px;
+    }
+}
